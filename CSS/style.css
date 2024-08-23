@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe600;
+}
+  
+header {
+    background-color: #ffe600; 
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 30px;
+}
+
+.logo img {
+    height: 100px; 
+    width: auto;
+}
+
+.logo {
+    margin-right: 10px;
+}
+#nome {
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.disney-logo img {
+    height: 30px; 
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0; 
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px; 
+    padding: 5px 10px; 
+}
+
+nav ul li a:hover {
+    background-color: rgb(251, 248, 81);
+    border-radius: 5px 10px;
+}
+.container {
+    display: flex;
+    flex: 1;
+    background-color: #ffe600;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #ffe600; 
+    padding: 10px;
+}
+
+main {
+    flex: 1;
+    background-color: #ffe600; 
+    padding: 10px;
+}
+
+footer {
+    background-color: #000000; 
+    height: 30px;
+    text-align: center;
+    color: white;
+    line-height: 30px; 
+}
